@@ -1,0 +1,12 @@
+- type: entity
+  parent: BaseItem
+  id: Testicon
+  name: testcon
+  description: redfires test icon.
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/testitem.rsi
+    state: icon
+  - type: Item
+    sprite: Objects/Fun/testitem.rsi
+    size: Tiny
